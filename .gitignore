@@ -1,0 +1,13 @@
+# scratch
+*.bak
+*.tmp
+*.log
+
+# PowerShell
+*.ps1.bak
+
+# editor / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
