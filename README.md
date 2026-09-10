@@ -1,5 +1,16 @@
 # setup-yubikey-git-signing
 
+> [!WARNING]
+> **AI-generated, "AI slop" disclosure.** This repo was written by an AI agent
+> (Hermes Agent, Nous Research) in a single debugging session on the author's own
+> machine. Every factual claim in it was checked by running the thing there, and the
+> commits are signed by the hardware key it configures. It has still only ever run on
+> one Windows 11 box with Git for Windows, Gpg4win 5.1.0 and a YubiKey 5, so read it
+> before you run it: it edits your GnuPG config, your git config and an HKCU logon
+> entry. All of that is reversible, see [Uninstalling](#uninstalling). No warranty
+> beyond the MIT licence, and no promise that the diagnosis behind it applies to your
+> machine.
+
 One PowerShell script that sets up **YubiKey-signed git commits and tags on a fresh
 Windows machine**, using the GnuPG that ships with Git for Windows, and fixes the
 failure mode that makes people think their key is broken.

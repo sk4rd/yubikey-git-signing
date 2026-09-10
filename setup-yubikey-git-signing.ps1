@@ -4,6 +4,10 @@
     Sets up commit and tag signing with a YubiKey (OpenPGP applet) on Windows, and
     makes it survive reboots.  No administrator rights needed.  Safe to re-run.
 
+    AI-generated: written by an AI agent during a real debugging session, then run on
+    real hardware.  See the README's AI disclosure.  Read this before you run it: it
+    changes GnuPG, git and logon configuration (all of it reversible).
+
     What it does
       1. finds git and the GnuPG that ships with Git for Windows (the one git will use)
       2. writes scdaemon.conf with "pcsc-shared" for that GnuPG and for every other
